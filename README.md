@@ -1,7 +1,7 @@
-# frontend-blog-admin-example
+# Demo
 
-**Demo blog api:** [https://backend-blog-example.herokuapp.com](https://backend-blog-example.herokuapp.com)
+**Demo api web điện thoại:** [https://backend-dienthoai.herokuapp.com/api](https://backend-dienthoai.herokuapp.com/api)
 
-**Demo blog:** [https://frontend-blog-example.vercel.app](https://frontend-blog-example.vercel.app)
+**Demo web điện thoại:** [https://frontend-dienthoai.vercel.app](https://frontend-dienthoai.vercel.app)
 
-**Demo blog admin:** [https://frontend-blog-admin-example.vercel.app](https://frontend-blog-admin-example.vercel.app)
+**Demo admin web điện thoại:** [https://frontend-dienthoai-admin.vercel.app](https://frontend-dienthoai-admin.vercel.app)
