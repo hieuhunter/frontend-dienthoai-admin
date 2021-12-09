@@ -1,0 +1,20 @@
+{
+	"short_name": "De4th Zone Admin",
+	"name": "De4th Zone Admin",
+	"icons": [
+		{
+			"src": "/images/logo192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/images/logo512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
+}
