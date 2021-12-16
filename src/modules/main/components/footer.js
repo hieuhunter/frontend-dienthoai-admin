@@ -14,7 +14,7 @@ const FooterComponent = () => {
 							Copyright &copy; {moment().year()}
 							<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/de4th_zone" className="text-decoration-none">
 								{' '}
-								De4th Zone
+								hieuhunter
 							</a>
 						</small>
 					</div>
