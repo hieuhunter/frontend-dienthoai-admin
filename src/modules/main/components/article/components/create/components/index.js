@@ -198,7 +198,7 @@ const CreateArticleComponent = () => {
 							</label>
 							<input
 								type="text"
-								placeholder="Thong tin man hinh"
+								placeholder="Thông tin màn hình"
 								className={classNames('form-control', {
 									'is-invalid': formik.errors.thong_tin_man_hinh && formik.touched.thong_tin_man_hinh
 								})}
@@ -218,7 +218,7 @@ const CreateArticleComponent = () => {
 							</label>
 							<input
 								type="text"
-								placeholder="Gia"
+								placeholder="Giá"
 								className={classNames('form-control', {
 									'is-invalid': formik.errors.gia && formik.touched.gia
 								})}
@@ -236,7 +236,7 @@ const CreateArticleComponent = () => {
 							</label>
 							<input
 								type="text"
-								placeholder="Gia goc"
+								placeholder="Giá gốc"
 								className={classNames('form-control', {
 									'is-invalid': formik.errors.gia_goc && formik.touched.gia_goc
 								})}
@@ -254,7 +254,7 @@ const CreateArticleComponent = () => {
 							</label>
 							<input
 								type="text"
-								placeholder="So luong"
+								placeholder="Số lượng"
 								className={classNames('form-control', {
 									'is-invalid': formik.errors.so_luong && formik.touched.so_luong
 								})}
@@ -330,7 +330,7 @@ const CreateArticleComponent = () => {
 							</label>
 							<input
 								type="text"
-								placeholder="Camera truoc"
+								placeholder="Camera trước"
 								className={classNames('form-control', {
 									'is-invalid': formik.errors.camera_truoc && formik.touched.camera_truoc
 								})}
@@ -350,7 +350,7 @@ const CreateArticleComponent = () => {
 							</label>
 							<input
 								type="text"
-								placeholder="Bo nho trong"
+								placeholder="Bộ nhớ  trong"
 								className={classNames('form-control', {
 									'is-invalid': formik.errors.bo_nho_trong && formik.touched.bo_nho_trong
 								})}
@@ -370,7 +370,7 @@ const CreateArticleComponent = () => {
 							</label>
 							<input
 								type="text"
-								placeholder="The nho ngoai"
+								placeholder="Thẻ nhớ ngoài"
 								className={classNames('form-control', {
 									'is-invalid': formik.errors.the_nho_ngoai && formik.touched.the_nho_ngoai
 								})}
@@ -408,7 +408,7 @@ const CreateArticleComponent = () => {
 							</label>
 							<input
 								type="text"
-								placeholder="He dieu hanh"
+								placeholder="Hệ điều hành"
 								className={classNames('form-control', {
 									'is-invalid': formik.errors.he_dieu_hanh && formik.touched.he_dieu_hanh
 								})}
@@ -479,32 +479,6 @@ const CreateArticleComponent = () => {
 								<div className="invalid-feedback d-block">{formik.errors.content}</div>
 							)}
 						</div>
-						{/* <div className="col-md-6">
-							<label htmlFor="status" className="form-label">
-								Status <span className="text-danger">*</span>
-							</label>
-							<select
-								className={classNames('form-select', {
-									'is-invalid': formik.errors.status && formik.touched.status
-								})}
-								onChange={formik.handleChange}
-								onBlur={formik.handleBlur}
-								value={formik.values.status}
-								name="status"
-								id="status"
-							>
-								{[
-									{ value: 'publish', label: 'Published' },
-									{ value: 'pending', label: 'Pending' },
-									{ value: 'draft', label: 'Draft' }
-								].map((status, index) => (
-									<option value={status.value} key={index}>
-										{status.label}
-									</option>
-								))}
-							</select>
-							{formik.errors.status && formik.touched.status && <div className="invalid-feedback">{formik.errors.status}</div>}
-						</div> */}
 						<div className="col-md-12">
 							<button className="btn btn-primary btn-sm me-2" type="submit" disabled={formik.isSubmitting}>
 								{formik.isSubmitting ? 'Creating' : 'Create'}

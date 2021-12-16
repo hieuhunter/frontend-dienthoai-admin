@@ -17,7 +17,7 @@ const SidebarComponent = ({ wrapperRef }) => {
 			<div className="py-2 px-4 border-bottom border-secondary sidebar-header">
 				<CustomLinkComponent href="/" className="d-flex align-items-center text-white text-decoration-none">
 					<CustomImageComponent className="rounded-circle" src={config.LOGO_URL} width={42} height={42} alt="" />
-					<span className="ms-2 fs-5 fw-bolder">De4th Zone</span>
+					<span className="ms-2 fs-5 fw-bolder">Admin</span>
 				</CustomLinkComponent>
 			</div>
 			<div className="px-2 py-3 sidebar-body">
