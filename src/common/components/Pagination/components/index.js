@@ -12,13 +12,6 @@ const Pagination = ({ limits, total, limit, currentPage, onChangePage, onChangeL
 		onChangePage(page);
 	};
 
-	/* const onChangePageInputHandle = (event) => {
-		event.preventDefault();
-		const value = parseInt(event.target.value);
-		const page = value && value <= totalPage && value >= 1 ? value : 1;
-		onChangePage(page);
-	}; */
-
 	const onChangeLimitHandle = (event) => {
 		event.preventDefault();
 		onChangeLimit(parseInt(event.target.value));
@@ -30,17 +23,6 @@ const Pagination = ({ limits, total, limit, currentPage, onChangePage, onChangeL
 				<span>
 					Showing {limit * currentPage - limit + 1} to {limit * currentPage} of {total} entries
 				</span>
-				{/* <span className="me-1">Page</span>
-				<input
-					className="form-control form-control-sm w-auto me-1"
-					type="number"
-					value={currentPage}
-					min="1"
-					max={totalPage}
-					onChange={(event) => onChangePageInputHandle(event)}
-				/>
-				<span className="me-1">of</span>
-				<strong className="me-1">{totalPage}</strong> */}
 				<span className="mx-2">|</span>
 				<select className="form-select form-select-sm w-auto" value={limit} onChange={(event) => onChangeLimitHandle(event)}>
 					{limits.map((limit, index) => (
